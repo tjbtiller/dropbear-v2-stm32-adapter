@@ -1,0 +1,165 @@
+ERC report (2026-11-08T21:08:15, Encoding UTF8)
+Report includes: Errors, Warnings, Exclusions
+
+***** Sheet /
+[pin_not_connected]: Pin not connected
+    ; error
+    @(121.92 mm, 45.72 mm): Symbol J1 Pin 3 [P3, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(121.92 mm, 48.26 mm): Symbol J1 Pin 4 [P4, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(121.92 mm, 50.80 mm): Symbol J1 Pin 5 [P5, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(121.92 mm, 53.34 mm): Symbol J1 Pin 6 [P6, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(121.92 mm, 101.60 mm): Symbol J1 Pin 25 [P25, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(121.92 mm, 114.30 mm): Symbol J1 Pin 30 [P30, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(121.92 mm, 162.56 mm): Symbol J1 Pin 49 [P49, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(121.92 mm, 172.72 mm): Symbol J1 Pin 53 [P53, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(121.92 mm, 175.26 mm): Symbol J1 Pin 54 [P54, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(121.92 mm, 177.80 mm): Symbol J1 Pin 66 [P66, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(121.92 mm, 180.34 mm): Symbol J1 Pin 67 [P67, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(474.98 mm, 45.72 mm): Symbol J2 Pin SCL [SCL, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(474.98 mm, 48.26 mm): Symbol J2 Pin SDA [SDA, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(474.98 mm, 50.80 mm): Symbol J2 Pin AREF [AREF, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(474.98 mm, 55.88 mm): Symbol J2 Pin 13 [13, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(474.98 mm, 58.42 mm): Symbol J2 Pin 12 [12, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(474.98 mm, 60.96 mm): Symbol J2 Pin 11 [11, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(474.98 mm, 63.50 mm): Symbol J2 Pin 10 [10, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(474.98 mm, 66.04 mm): Symbol J2 Pin 9 [9, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(474.98 mm, 68.58 mm): Symbol J2 Pin 8 [8, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(474.98 mm, 86.36 mm): Symbol J3 Pin 7 [7, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(474.98 mm, 88.90 mm): Symbol J3 Pin 6 [6, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(474.98 mm, 91.44 mm): Symbol J3 Pin 5 [5, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(474.98 mm, 93.98 mm): Symbol J3 Pin 4 [4, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(474.98 mm, 96.52 mm): Symbol J3 Pin 3 [3, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(474.98 mm, 134.62 mm): Symbol J5 Pin 24 [24, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(474.98 mm, 135.89 mm): Symbol J4 Pin 19 [19, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(474.98 mm, 137.16 mm): Symbol J5 Pin 25 [25, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(474.98 mm, 139.70 mm): Symbol J5 Pin 26 [26, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(474.98 mm, 142.24 mm): Symbol J5 Pin 27 [27, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(474.98 mm, 152.40 mm): Symbol J5 Pin 31 [31, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(474.98 mm, 160.02 mm): Symbol J5 Pin 34 [34, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(474.98 mm, 162.56 mm): Symbol J5 Pin 35 [35, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(474.98 mm, 170.18 mm): Symbol J5 Pin 38 [38, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(474.98 mm, 172.72 mm): Symbol J5 Pin 39 [39, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(474.98 mm, 175.26 mm): Symbol J5 Pin 40 [40, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(474.98 mm, 177.80 mm): Symbol J5 Pin 41 [41, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(474.98 mm, 180.34 mm): Symbol J5 Pin 42 [42, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(474.98 mm, 182.88 mm): Symbol J5 Pin 43 [43, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(474.98 mm, 190.50 mm): Symbol J5 Pin 46 [46, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(474.98 mm, 193.04 mm): Symbol J5 Pin 47 [47, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(474.98 mm, 275.59 mm): Symbol J6 Pin A5 [A5, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(474.98 mm, 278.13 mm): Symbol J6 Pin A6 [A6, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(474.98 mm, 280.67 mm): Symbol J6 Pin A7 [A7, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(474.98 mm, 298.45 mm): Symbol J7 Pin A12 [A12, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(474.98 mm, 300.99 mm): Symbol J7 Pin A13 [A13, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(474.98 mm, 303.53 mm): Symbol J7 Pin A14 [A14, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(474.98 mm, 306.07 mm): Symbol J7 Pin A15 [A15, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(474.98 mm, 314.96 mm): Symbol J8 Pin IORF [IORF, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(474.98 mm, 317.50 mm): Symbol J8 Pin RST1 [RST1, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(474.98 mm, 330.20 mm): Symbol J8 Pin VIN [VIN, Passive, Line]
+
+ ** ERC messages: 51  Errors 51  Warnings 0
+
+ ** Ignored checks:
+    - Global label only appears once in the schematic
+    - Four connection points are joined together
+    - SPICE model issue
+    - Assigned footprint doesn't match footprint filters

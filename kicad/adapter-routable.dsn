@@ -1,0 +1,425 @@
+(pcb "/tmp/dropbear-route/fresh.dsn"
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "10.0.8")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  100330 -1270  -1270 -1270  -1270 54610  100330 54610
+            100330 -1270)
+    )
+    (plane @:no_net_0 (polygon F.Cu 0  -820 54160  99880 54160  99880 -820  -820 -820  -820 54160))
+    (plane @:no_net_1 (polygon B.Cu 0  -820 54160  99880 54160  99880 -820  -820 -820  -820 54160))
+    (via "Via[0-1]_600:300_um")
+    (rule
+      (width 200)
+      (clearance 200)
+      (clearance 50 (type smd_smd))
+    )
+  )
+  (placement
+    (component dropbear:TEENSY41_SOCKET
+      (place J1 55000 22000 front 0 (PN TEENSY41_SOCKET))
+    )
+    (component dropbear:MEGA_DIG_A_1x10
+      (place J2 18796 50800 front 0 (PN MEGA_DIG_A_1x10))
+    )
+    (component dropbear:MEGA_DIG_HI_2x18
+      (place J5 93980 50800 front 0 (PN MEGA_DIG_HI_2x18))
+    )
+    (component dropbear:MEGA_PWR_1x7
+      (place J8 30480 2540 front 0 (PN MEGA_PWR_1x7))
+    )
+    (component dropbear:MEGA_DIG_B_1x8
+      (place J3 45720 50800 front 0 (PN MEGA_DIG_B_1x8))
+    )
+    (component dropbear:MEGA_AN_A_1x8
+      (place J6 50800 2540 front 0 (PN MEGA_AN_A_1x8))
+    )
+    (component dropbear:MEGA_AN_B_1x8
+      (place J7 73660 2540 front 0 (PN MEGA_AN_B_1x8))
+    )
+    (component dropbear:MEGA_DIG_C_1x8
+      (place J4 68580 50800 front 0 (PN MEGA_DIG_C_1x8))
+    )
+    (component dropbear:TestPoint_THT_D2
+      (place VBAT 73500 42000 back 180 (PN TestPoint_THT_D2))
+    )
+  )
+  (library
+    (image dropbear:TEENSY41_SOCKET
+      (outline (polygon signal 0  30995 -10395  -30995 -10395  -30995 10395  30995 10395))
+      (pin Rect[A]Pad_1600.000000x1600.000000_um 1 -29210 -7620)
+      (pin Round[A]Pad_1600.000000_um 2 -26670 -7620)
+      (pin Round[A]Pad_1600.000000_um 3 -24130 -7620)
+      (pin Round[A]Pad_1600.000000_um 4 -21590 -7620)
+      (pin Round[A]Pad_1600.000000_um 5 -19050 -7620)
+      (pin Round[A]Pad_1600.000000_um 6 -16510 -7620)
+      (pin Round[A]Pad_1600.000000_um 7 -13970 -7620)
+      (pin Round[A]Pad_1600.000000_um 8 -11430 -7620)
+      (pin Round[A]Pad_1600.000000_um 9 -8890 -7620)
+      (pin Round[A]Pad_1600.000000_um 10 -6350 -7620)
+      (pin Round[A]Pad_1600.000000_um 11 -3810 -7620)
+      (pin Round[A]Pad_1600.000000_um 12 -1270 -7620)
+      (pin Round[A]Pad_1600.000000_um 13 1270 -7620)
+      (pin Round[A]Pad_1600.000000_um 14 3810 -7620)
+      (pin Round[A]Pad_1600.000000_um 15 6350 -7620)
+      (pin Round[A]Pad_1600.000000_um 16 8890 -7620)
+      (pin Round[A]Pad_1600.000000_um 17 11430 -7620)
+      (pin Round[A]Pad_1600.000000_um 18 13970 -7620)
+      (pin Round[A]Pad_1600.000000_um 19 16510 -7620)
+      (pin Round[A]Pad_1600.000000_um 20 19050 -7620)
+      (pin Round[A]Pad_1600.000000_um 21 21590 -7620)
+      (pin Round[A]Pad_1600.000000_um 22 24130 -7620)
+      (pin Round[A]Pad_1600.000000_um 23 26670 -7620)
+      (pin Round[A]Pad_1600.000000_um 24 29210 -7620)
+      (pin Round[A]Pad_1600.000000_um 25 29210 7620)
+      (pin Round[A]Pad_1600.000000_um 26 26670 7620)
+      (pin Round[A]Pad_1600.000000_um 27 24130 7620)
+      (pin Round[A]Pad_1600.000000_um 28 21590 7620)
+      (pin Round[A]Pad_1600.000000_um 29 19050 7620)
+      (pin Round[A]Pad_1600.000000_um 30 16510 7620)
+      (pin Round[A]Pad_1600.000000_um 31 13970 7620)
+      (pin Round[A]Pad_1600.000000_um 32 11430 7620)
+      (pin Round[A]Pad_1600.000000_um 33 8890 7620)
+      (pin Round[A]Pad_1600.000000_um 34 6350 7620)
+      (pin Round[A]Pad_1600.000000_um 35 3810 7620)
+      (pin Round[A]Pad_1600.000000_um 36 1270 7620)
+      (pin Round[A]Pad_1600.000000_um 37 -1270 7620)
+      (pin Round[A]Pad_1600.000000_um 38 -3810 7620)
+      (pin Round[A]Pad_1600.000000_um 39 -6350 7620)
+      (pin Round[A]Pad_1600.000000_um 40 -8890 7620)
+      (pin Round[A]Pad_1600.000000_um 41 -11430 7620)
+      (pin Round[A]Pad_1600.000000_um 42 -13970 7620)
+      (pin Round[A]Pad_1600.000000_um 43 -16510 7620)
+      (pin Round[A]Pad_1600.000000_um 44 -19050 7620)
+      (pin Round[A]Pad_1600.000000_um 45 -21590 7620)
+      (pin Round[A]Pad_1600.000000_um 46 -24130 7620)
+      (pin Round[A]Pad_1600.000000_um 47 -26670 7620)
+      (pin Round[A]Pad_1600.000000_um 48 -29210 7620)
+      (pin Round[A]Pad_1600.000000_um 49 -26670 5080)
+      (pin Round[A]Pad_1600.000000_um 50 16510 -5080)
+      (pin Round[A]Pad_1600.000000_um 51 16510 -2540)
+      (pin Round[A]Pad_1600.000000_um 52 16510 0)
+      (pin Round[A]Pad_1600.000000_um 53 16510 2540)
+      (pin Round[A]Pad_1600.000000_um 54 16510 5080)
+      (pin Round[A]Pad_1300.000000_um 66 -28480 1270)
+      (pin Round[A]Pad_1300.000000_um 67 -28480 -1270)
+    )
+    (image dropbear:MEGA_DIG_A_1x10
+      (outline (polygon signal 0  23455 -595  -595 -595  -595 595  23455 595))
+      (pin Oval[A]Pad_1700.000000x1700.000000_um 8 22860 0)
+      (pin Oval[A]Pad_1700.000000x1700.000000_um 9 20320 0)
+      (pin Oval[A]Pad_1700.000000x1700.000000_um 10 17780 0)
+      (pin Oval[A]Pad_1700.000000x1700.000000_um 11 15240 0)
+      (pin Oval[A]Pad_1700.000000x1700.000000_um 12 12700 0)
+      (pin Oval[A]Pad_1700.000000x1700.000000_um 13 10160 0)
+      (pin Oval[A]Pad_1700.000000x1700.000000_um AREF 5080 0)
+      (pin Oval[A]Pad_1700.000000x1700.000000_um GND1 7620 0)
+      (pin Oval[A]Pad_1700.000000x1700.000000_um SCL 0 0)
+      (pin Oval[A]Pad_1700.000000x1700.000000_um SDA 2540 0)
+    )
+    (image dropbear:MEGA_DIG_HI_2x18
+      (outline (polygon signal 0  3135 -43775  -595 -43775  -595 595  3135 595))
+      (pin Oval[A]Pad_1700.000000x1700.000000_um 5V3 0 0)
+      (pin Oval[A]Pad_1700.000000x1700.000000_um 5V4 2540 0)
+      (pin Oval[A]Pad_1700.000000x1700.000000_um 22 0 -2540)
+      (pin Oval[A]Pad_1700.000000x1700.000000_um 23 2540 -2540)
+      (pin Oval[A]Pad_1700.000000x1700.000000_um 24 0 -5080)
+      (pin Oval[A]Pad_1700.000000x1700.000000_um 25 2540 -5080)
+      (pin Oval[A]Pad_1700.000000x1700.000000_um 26 0 -7620)
+      (pin Oval[A]Pad_1700.000000x1700.000000_um 27 2540 -7620)
+      (pin Oval[A]Pad_1700.000000x1700.000000_um 28 0 -10160)
+      (pin Oval[A]Pad_1700.000000x1700.000000_um 29 2540 -10160)
+      (pin Oval[A]Pad_1700.000000x1700.000000_um 30 0 -12700)
+      (pin Oval[A]Pad_1700.000000x1700.000000_um 31 2540 -12700)
+      (pin Oval[A]Pad_1700.000000x1700.000000_um 32 0 -15240)
+      (pin Oval[A]Pad_1700.000000x1700.000000_um 33 2540 -15240)
+      (pin Oval[A]Pad_1700.000000x1700.000000_um 34 0 -17780)
+      (pin Oval[A]Pad_1700.000000x1700.000000_um 35 2540 -17780)
+      (pin Oval[A]Pad_1700.000000x1700.000000_um 36 0 -20320)
+      (pin Oval[A]Pad_1700.000000x1700.000000_um 37 2540 -20320)
+      (pin Oval[A]Pad_1700.000000x1700.000000_um 38 0 -22860)
+      (pin Oval[A]Pad_1700.000000x1700.000000_um 39 2540 -22860)
+      (pin Oval[A]Pad_1700.000000x1700.000000_um 40 0 -25400)
+      (pin Oval[A]Pad_1700.000000x1700.000000_um 41 2540 -25400)
+      (pin Oval[A]Pad_1700.000000x1700.000000_um 42 0 -27940)
+      (pin Oval[A]Pad_1700.000000x1700.000000_um 43 2540 -27940)
+      (pin Oval[A]Pad_1700.000000x1700.000000_um 44 0 -30480)
+      (pin Oval[A]Pad_1700.000000x1700.000000_um 45 2540 -30480)
+      (pin Oval[A]Pad_1700.000000x1700.000000_um 46 0 -33020)
+      (pin Oval[A]Pad_1700.000000x1700.000000_um 47 2540 -33020)
+      (pin Oval[A]Pad_1700.000000x1700.000000_um 48 0 -35560)
+      (pin Oval[A]Pad_1700.000000x1700.000000_um 49 2540 -35560)
+      (pin Oval[A]Pad_1700.000000x1700.000000_um 50 0 -38100)
+      (pin Oval[A]Pad_1700.000000x1700.000000_um 51 2540 -38100)
+      (pin Oval[A]Pad_1700.000000x1700.000000_um 52 0 -40640)
+      (pin Oval[A]Pad_1700.000000x1700.000000_um 53 2540 -40640)
+      (pin Oval[A]Pad_1700.000000x1700.000000_um GND5 0 -43180)
+      (pin Oval[A]Pad_1700.000000x1700.000000_um GND6 2540 -43180)
+    )
+    (image dropbear:MEGA_PWR_1x7
+      (outline (polygon signal 0  15835 -595  -595 -595  -595 595  15835 595))
+      (pin Oval[A]Pad_1700.000000x1700.000000_um 3V3 5080 0)
+      (pin Oval[A]Pad_1700.000000x1700.000000_um 5V1 7620 0)
+      (pin Oval[A]Pad_1700.000000x1700.000000_um GND2 10160 0)
+      (pin Oval[A]Pad_1700.000000x1700.000000_um GND3 12700 0)
+      (pin Oval[A]Pad_1700.000000x1700.000000_um IORF 0 0)
+      (pin Oval[A]Pad_1700.000000x1700.000000_um RST1 2540 0)
+      (pin Oval[A]Pad_1700.000000x1700.000000_um VIN 15240 0)
+    )
+    (image dropbear:MEGA_DIG_B_1x8
+      (outline (polygon signal 0  18375 -595  -595 -595  -595 595  18375 595))
+      (pin Oval[A]Pad_1700.000000x1700.000000_um 0 17780 0)
+      (pin Oval[A]Pad_1700.000000x1700.000000_um 1 15240 0)
+      (pin Oval[A]Pad_1700.000000x1700.000000_um 2 12700 0)
+      (pin Oval[A]Pad_1700.000000x1700.000000_um 3 10160 0)
+      (pin Oval[A]Pad_1700.000000x1700.000000_um 4 7620 0)
+      (pin Oval[A]Pad_1700.000000x1700.000000_um 5 5080 0)
+      (pin Oval[A]Pad_1700.000000x1700.000000_um 6 2540 0)
+      (pin Oval[A]Pad_1700.000000x1700.000000_um 7 0 0)
+    )
+    (image dropbear:MEGA_AN_A_1x8
+      (outline (polygon signal 0  18375 -595  -595 -595  -595 595  18375 595))
+      (pin Oval[A]Pad_1700.000000x1700.000000_um A0 0 0)
+      (pin Oval[A]Pad_1700.000000x1700.000000_um A1 2540 0)
+      (pin Oval[A]Pad_1700.000000x1700.000000_um A2 5080 0)
+      (pin Oval[A]Pad_1700.000000x1700.000000_um A3 7620 0)
+      (pin Oval[A]Pad_1700.000000x1700.000000_um A4 10160 0)
+      (pin Oval[A]Pad_1700.000000x1700.000000_um A5 12700 0)
+      (pin Oval[A]Pad_1700.000000x1700.000000_um A6 15240 0)
+      (pin Oval[A]Pad_1700.000000x1700.000000_um A7 17780 0)
+    )
+    (image dropbear:MEGA_AN_B_1x8
+      (outline (polygon signal 0  18375 -595  -595 -595  -595 595  18375 595))
+      (pin Oval[A]Pad_1700.000000x1700.000000_um A8 0 0)
+      (pin Oval[A]Pad_1700.000000x1700.000000_um A9 2540 0)
+      (pin Oval[A]Pad_1700.000000x1700.000000_um A10 5080 0)
+      (pin Oval[A]Pad_1700.000000x1700.000000_um A11 7620 0)
+      (pin Oval[A]Pad_1700.000000x1700.000000_um A12 10160 0)
+      (pin Oval[A]Pad_1700.000000x1700.000000_um A13 12700 0)
+      (pin Oval[A]Pad_1700.000000x1700.000000_um A14 15240 0)
+      (pin Oval[A]Pad_1700.000000x1700.000000_um A15 17780 0)
+    )
+    (image dropbear:MEGA_DIG_C_1x8
+      (outline (polygon signal 0  18375 -595  -595 -595  -595 595  18375 595))
+      (pin Oval[A]Pad_1700.000000x1700.000000_um 14 0 0)
+      (pin Oval[A]Pad_1700.000000x1700.000000_um 15 2540 0)
+      (pin Oval[A]Pad_1700.000000x1700.000000_um 16 5080 0)
+      (pin Oval[A]Pad_1700.000000x1700.000000_um 17 7620 0)
+      (pin Oval[A]Pad_1700.000000x1700.000000_um 18 10160 0)
+      (pin Oval[A]Pad_1700.000000x1700.000000_um 19 12700 0)
+      (pin Oval[A]Pad_1700.000000x1700.000000_um 20 15240 0)
+      (pin Oval[A]Pad_1700.000000x1700.000000_um 21 17780 0)
+    )
+    (image dropbear:TestPoint_THT_D2
+      (outline (polygon signal 0  1495 -1495  -1495 -1495  -1495 1495  1495 1495))
+      (outline (path signal 120  -1300 -1300  1300 -1300  1300 1300  -1300 1300  -1300 -1300))
+      (pin Round[A]Pad_2000.000000_um 1 0 0)
+    )
+    (padstack Round[A]Pad_1300.000000_um
+      (shape (circle F.Cu 1300))
+      (shape (circle B.Cu 1300))
+      (attach off)
+    )
+    (padstack Round[A]Pad_1600.000000_um
+      (shape (circle F.Cu 1600))
+      (shape (circle B.Cu 1600))
+      (attach off)
+    )
+    (padstack Round[A]Pad_2000.000000_um
+      (shape (circle F.Cu 2000))
+      (shape (circle B.Cu 2000))
+      (attach off)
+    )
+    (padstack Oval[A]Pad_1700.000000x1700.000000_um
+      (shape (path F.Cu 1700  0 0  0 0))
+      (shape (path B.Cu 1700  0 0  0 0))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_1600.000000x1600.000000_um
+      (shape (rect F.Cu -800 -800 800 800))
+      (shape (rect B.Cu -800 -800 800 800))
+      (attach off)
+    )
+    (padstack "Via[0-1]_600:300_um"
+      (shape (circle F.Cu 600))
+      (shape (circle B.Cu 600))
+      (attach off)
+    )
+  )
+  (network
+    (net @:no_net_0
+    )
+    (net @:no_net_1
+    )
+
+    (net TACHO
+      (pins J1-2 J5-28)
+    )
+    (net FUELPUMP
+      (pins J1-7 J5-36)
+    )
+    (net CS_FLASH
+      (pins J1-8 J5-49)
+    )
+    (net ESP_TXD
+      (pins J1-9 J3-0)
+    )
+    (net ESP_RXD
+      (pins J1-10 J3-1)
+    )
+    (net CS_MC33810_2
+      (pins J1-11 J5-53)
+    )
+    (net CS_MC33810_1
+      (pins J1-12 J5-50)
+    )
+    (net SPI_MOSI
+      (pins J1-13 J5-52)
+    )
+    (net SPI_MISO
+      (pins J1-14 J5-51)
+    )
+    (net +3V3
+      (pins J1-15 J1-46 J1-51 J8-3V3)
+    )
+    (net BOOST
+      (pins J1-16 J5-30)
+    )
+    (net FAN
+      (pins J1-17 J5-29)
+    )
+    (net SPARE2_OUT
+      (pins J1-18 J5-37)
+    )
+    (net IDLE1
+      (pins J1-19 J5-32)
+    )
+    (net VVT_A1
+      (pins J1-20 J4-20)
+    )
+    (net IDLE2_SP1
+      (pins J1-21 J5-33)
+    )
+    (net STEP_EN
+      (pins J1-22 J5-22)
+    )
+    (net STEP_STEP
+      (pins J1-23 J4-21)
+    )
+    (net STEP_DIR
+      (pins J1-24 J5-23)
+    )
+    (net DI_VSS
+      (pins J1-26 J4-17)
+    )
+    (net DI_WMI
+      (pins J1-27 J4-16)
+    )
+    (net DI_LAUNCH
+      (pins J1-28 J4-18)
+    )
+    (net DI_FLEX
+      (pins J1-29 J3-2)
+    )
+    (net AI_BAT
+      (pins J1-31 J6-A4)
+    )
+    (net AI_SP1
+      (pins J1-32 J7-A10)
+    )
+    (net AI_SP2
+      (pins J1-33 J7-A11)
+    )
+    (net SPI_SCLK
+      (pins J1-35 J5-48)
+    )
+    (net AI_IAT
+      (pins J1-36 J6-A0)
+    )
+    (net AI_CLT
+      (pins J1-37 J6-A1)
+    )
+    (net AI_O2
+      (pins J1-38 J6-A2)
+    )
+    (net AI_TPS
+      (pins J1-39 J6-A3)
+    )
+    (net AI_BARO
+      (pins J1-40 J7-A8)
+    )
+    (net AI_MAP
+      (pins J1-41 J7-A9)
+    )
+    (net CRANK
+      (pins J1-42 J4-15)
+    )
+    (net CAM
+      (pins J1-43 J4-14)
+    )
+    (net CAN_TX
+      (pins J1-44 J5-44)
+    )
+    (net CAN_RX
+      (pins J1-45 J5-45)
+    )
+    (net +5V
+      (pins J1-48 J5-5V3 J5-5V4 J8-5V1)
+    )
+    (net VBAT_RTC
+      (pins J1-50 VBAT-1)
+    )
+    (class PWR5
+      +5V
+      (circuit
+        (use_via "Via[0-1]_600:300_um")
+      )
+      (rule
+        (width 760)
+        (clearance 254)
+      )
+    )
+    (class PWR3
+      +3V3
+      (circuit
+        (use_via "Via[0-1]_600:300_um")
+      )
+      (rule
+        (width 500)
+        (clearance 254)
+      )
+    )
+    (class SIGNAL
+      AI_BARO AI_BAT AI_CLT AI_IAT AI_MAP AI_O2 AI_SP1 AI_SP2
+      AI_TPS BOOST CAM CAN_RX CAN_TX CRANK CS_FLASH CS_MC33810_1
+      CS_MC33810_2 DI_FLEX DI_LAUNCH DI_VSS DI_WMI ESP_RXD ESP_TXD FAN
+      FUELPUMP IDLE1 IDLE2_SP1 SPARE2_OUT SPI_MISO SPI_MOSI SPI_SCLK STEP_DIR
+      STEP_EN STEP_STEP TACHO VBAT_RTC VVT_A1
+      (circuit
+        (use_via "Via[0-1]_600:300_um")
+      )
+      (rule
+        (width 254)
+        (clearance 254)
+      )
+    )
+  )
+)

@@ -1,0 +1,42 @@
+** Drc report for dropbear-v2-stm32-adapter.kicad_pcb **
+** Created on 2026-11-09T01:59:32 **
+** Report includes: Errors, Warnings **
+
+** Found 4 DRC violations **
+[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
+    Local override; error
+    @(-0.8200 mm, -54.1600 mm): Zone [GND] on F.Cu, priority 0
+    @(61.3500 mm, -29.6200 mm): PTH pad 34 [GND] of J1
+[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
+    Local override; error
+    @(-0.8200 mm, -54.1600 mm): Zone [GND] on F.Cu, priority 0
+    @(28.3300 mm, -29.6200 mm): PTH pad 47 [GND] of J1
+[starved_thermal]: Thermal relief connection to zone incomplete (layer B.Cu; zone min spoke count 2; actual 1)
+    Local override; error
+    @(-0.8200 mm, -54.1600 mm): Zone [GND] on B.Cu, priority 0
+    @(25.7900 mm, -14.3800 mm): PTH pad 1 [GND] of J1
+[lib_footprint_mismatch]: Footprint 'TEENSY41_SOCKET' does not match copy in library 'dropbear'
+    Local override; warning
+    @(55.0000 mm, -22.0000 mm): Footprint J1
+    @(55.0000 mm, -22.0000 mm): Footprint J1
+
+** Found 2 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(61.3500 mm, -29.6200 mm): PTH pad 34 [GND] of J1
+    @(-0.8200 mm, -54.1600 mm): Zone [GND] on B.Cu, priority 0
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(71.5100 mm, -22.0000 mm): PTH pad 52 [GND] of J1
+    @(-0.8200 mm, -54.1600 mm): Zone [GND] on F.Cu, priority 0
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **

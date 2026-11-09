@@ -1,0 +1,22 @@
+(pcb C:\Work\freerouting\design\tutorial_board\tutorial_board.dsn
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "8.0.0")
+  )
+  (resolution um 10)
+  (unit um)
+ 
+  (placement
+    (component "TEST" (place T1 0 0))
+  )
+  (library
+    (image "TEST"
+      (pin (tht) 0 0 (pin_ext 1))
+    )
+  )
+  (network
+    (net GND (pins (pin T1 1)))
+  )
+)

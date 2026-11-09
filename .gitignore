@@ -1,0 +1,12 @@
+# local scratch / backups
+*.bak-*
+*.bak
+tmp/
+~*.lck
+_autosave-*
+# local artifacts incl. credential-shaped bundle — never push
+artifacts/$$*.zip
+# reference clones of other repos
+research-clones/
+kicad/*-backups/
+artifacts/*.zip
